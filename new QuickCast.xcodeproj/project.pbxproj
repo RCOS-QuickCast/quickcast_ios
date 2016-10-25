@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047049B41DBA9D3C004F41CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049B31DBA9D3C004F41CA /* AppDelegate.swift */; };
+		047049B61DBA9D3C004F41CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049B51DBA9D3C004F41CA /* ViewController.swift */; };
+		047049B91DBA9D3C004F41CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047049B71DBA9D3C004F41CA /* Main.storyboard */; };
+		047049BC1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 047049BA1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld */; };
+		047049BE1DBA9D3C004F41CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047049BD1DBA9D3C004F41CA /* Assets.xcassets */; };
+		047049C11DBA9D3C004F41CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047049BF1DBA9D3C004F41CA /* LaunchScreen.storyboard */; };
+		047049CC1DBA9D3C004F41CA /* new_QuickCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049CB1DBA9D3C004F41CA /* new_QuickCastTests.swift */; };
+		047049D71DBA9D3C004F41CA /* new_QuickCastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049D61DBA9D3C004F41CA /* new_QuickCastUITests.swift */; };
+		047049E81DBA9DA8004F41CA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047049E71DBA9DA8004F41CA /* SWRevealViewController.m */; };
+		047049EC1DBA9EAF004F41CA /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049EB1DBA9EAF004F41CA /* PopularViewController.swift */; };
+		047049EE1DBA9ECA004F41CA /* LiveNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049ED1DBA9ECA004F41CA /* LiveNowViewController.swift */; };
+		047049F01DBA9F5F004F41CA /* QuickCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049EF1DBA9F5F004F41CA /* QuickCastViewController.swift */; };
+		047049F21DBAA069004F41CA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F11DBAA069004F41CA /* MenuViewController.swift */; };
+		047049F41DBAA79F004F41CA /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F31DBAA79F004F41CA /* FollowingViewController.swift */; };
+		047049F61DBAA844004F41CA /* Dota2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F51DBAA844004F41CA /* Dota2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047049C81DBA9D3C004F41CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047049A81DBA9D3C004F41CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047049AF1DBA9D3C004F41CA;
+			remoteInfo = "new QuickCast";
+		};
+		047049D31DBA9D3C004F41CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047049A81DBA9D3C004F41CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047049AF1DBA9D3C004F41CA;
+			remoteInfo = "new QuickCast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047049B01DBA9D3C004F41CA /* new QuickCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new QuickCast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047049B31DBA9D3C004F41CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047049B51DBA9D3C004F41CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047049B81DBA9D3C004F41CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047049BB1DBA9D3C004F41CA /* new_QuickCast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = new_QuickCast.xcdatamodel; sourceTree = "<group>"; };
+		047049BD1DBA9D3C004F41CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047049C01DBA9D3C004F41CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047049C21DBA9D3C004F41CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047049C71DBA9D3C004F41CA /* new QuickCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new QuickCastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047049CB1DBA9D3C004F41CA /* new_QuickCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_QuickCastTests.swift; sourceTree = "<group>"; };
+		047049CD1DBA9D3C004F41CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047049D21DBA9D3C004F41CA /* new QuickCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new QuickCastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047049D61DBA9D3C004F41CA /* new_QuickCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_QuickCastUITests.swift; sourceTree = "<group>"; };
+		047049D81DBA9D3C004F41CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047049E51DBA9DA7004F41CA /* new QuickCast-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "new QuickCast-Bridging-Header.h"; sourceTree = "<group>"; };
+		047049E61DBA9DA8004F41CA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		047049E71DBA9DA8004F41CA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		047049EB1DBA9EAF004F41CA /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		047049ED1DBA9ECA004F41CA /* LiveNowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveNowViewController.swift; path = ../LiveNowViewController.swift; sourceTree = "<group>"; };
+		047049EF1DBA9F5F004F41CA /* QuickCastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCastViewController.swift; sourceTree = "<group>"; };
+		047049F11DBAA069004F41CA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		047049F31DBAA79F004F41CA /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		047049F51DBAA844004F41CA /* Dota2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dota2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047049AD1DBA9D3C004F41CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047049C41DBA9D3C004F41CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047049CF1DBA9D3C004F41CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047049A71DBA9D3C004F41CA = {
+			isa = PBXGroup;
+			children = (
+				047049B21DBA9D3C004F41CA /* new QuickCast */,
+				047049CA1DBA9D3C004F41CA /* new QuickCastTests */,
+				047049D51DBA9D3C004F41CA /* new QuickCastUITests */,
+				047049B11DBA9D3C004F41CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047049B11DBA9D3C004F41CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047049B01DBA9D3C004F41CA /* new QuickCast.app */,
+				047049C71DBA9D3C004F41CA /* new QuickCastTests.xctest */,
+				047049D21DBA9D3C004F41CA /* new QuickCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047049B21DBA9D3C004F41CA /* new QuickCast */ = {
+			isa = PBXGroup;
+			children = (
+				047049F71DBAAEAA004F41CA /* ViewControllerClasses */,
+				047049E41DBA9D91004F41CA /* SWRevealViewController */,
+				047049B31DBA9D3C004F41CA /* AppDelegate.swift */,
+				047049B71DBA9D3C004F41CA /* Main.storyboard */,
+				047049BD1DBA9D3C004F41CA /* Assets.xcassets */,
+				047049BF1DBA9D3C004F41CA /* LaunchScreen.storyboard */,
+				047049C21DBA9D3C004F41CA /* Info.plist */,
+				047049BA1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld */,
+			);
+			path = "new QuickCast";
+			sourceTree = "<group>";
+		};
+		047049CA1DBA9D3C004F41CA /* new QuickCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				047049CB1DBA9D3C004F41CA /* new_QuickCastTests.swift */,
+				047049CD1DBA9D3C004F41CA /* Info.plist */,
+			);
+			path = "new QuickCastTests";
+			sourceTree = "<group>";
+		};
+		047049D51DBA9D3C004F41CA /* new QuickCastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047049D61DBA9D3C004F41CA /* new_QuickCastUITests.swift */,
+				047049D81DBA9D3C004F41CA /* Info.plist */,
+			);
+			path = "new QuickCastUITests";
+			sourceTree = "<group>";
+		};
+		047049E41DBA9D91004F41CA /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				047049E61DBA9DA8004F41CA /* SWRevealViewController.h */,
+				047049E71DBA9DA8004F41CA /* SWRevealViewController.m */,
+				047049E51DBA9DA7004F41CA /* new QuickCast-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		047049F71DBAAEAA004F41CA /* ViewControllerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				047049B51DBA9D3C004F41CA /* ViewController.swift */,
+				047049ED1DBA9ECA004F41CA /* LiveNowViewController.swift */,
+				047049EF1DBA9F5F004F41CA /* QuickCastViewController.swift */,
+				047049EB1DBA9EAF004F41CA /* PopularViewController.swift */,
+				047049F11DBAA069004F41CA /* MenuViewController.swift */,
+				047049F31DBAA79F004F41CA /* FollowingViewController.swift */,
+				047049F51DBAA844004F41CA /* Dota2ViewController.swift */,
+			);
+			name = ViewControllerClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047049AF1DBA9D3C004F41CA /* new QuickCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047049DB1DBA9D3C004F41CA /* Build configuration list for PBXNativeTarget "new QuickCast" */;
+			buildPhases = (
+				047049AC1DBA9D3C004F41CA /* Sources */,
+				047049AD1DBA9D3C004F41CA /* Frameworks */,
+				047049AE1DBA9D3C004F41CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "new QuickCast";
+			productName = "new QuickCast";
+			productReference = 047049B01DBA9D3C004F41CA /* new QuickCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047049C61DBA9D3C004F41CA /* new QuickCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047049DE1DBA9D3C004F41CA /* Build configuration list for PBXNativeTarget "new QuickCastTests" */;
+			buildPhases = (
+				047049C31DBA9D3C004F41CA /* Sources */,
+				047049C41DBA9D3C004F41CA /* Frameworks */,
+				047049C51DBA9D3C004F41CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047049C91DBA9D3C004F41CA /* PBXTargetDependency */,
+			);
+			name = "new QuickCastTests";
+			productName = "new QuickCastTests";
+			productReference = 047049C71DBA9D3C004F41CA /* new QuickCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047049D11DBA9D3C004F41CA /* new QuickCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047049E11DBA9D3C004F41CA /* Build configuration list for PBXNativeTarget "new QuickCastUITests" */;
+			buildPhases = (
+				047049CE1DBA9D3C004F41CA /* Sources */,
+				047049CF1DBA9D3C004F41CA /* Frameworks */,
+				047049D01DBA9D3C004F41CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047049D41DBA9D3C004F41CA /* PBXTargetDependency */,
+			);
+			name = "new QuickCastUITests";
+			productName = "new QuickCastUITests";
+			productReference = 047049D21DBA9D3C004F41CA /* new QuickCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047049A81DBA9D3C004F41CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ethan;
+				TargetAttributes = {
+					047049AF1DBA9D3C004F41CA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JT92HWUAAM;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					047049C61DBA9D3C004F41CA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JT92HWUAAM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047049AF1DBA9D3C004F41CA;
+					};
+					047049D11DBA9D3C004F41CA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JT92HWUAAM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047049AF1DBA9D3C004F41CA;
+					};
+				};
+			};
+			buildConfigurationList = 047049AB1DBA9D3C004F41CA /* Build configuration list for PBXProject "new QuickCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047049A71DBA9D3C004F41CA;
+			productRefGroup = 047049B11DBA9D3C004F41CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047049AF1DBA9D3C004F41CA /* new QuickCast */,
+				047049C61DBA9D3C004F41CA /* new QuickCastTests */,
+				047049D11DBA9D3C004F41CA /* new QuickCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047049AE1DBA9D3C004F41CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047049C11DBA9D3C004F41CA /* LaunchScreen.storyboard in Resources */,
+				047049BE1DBA9D3C004F41CA /* Assets.xcassets in Resources */,
+				047049B91DBA9D3C004F41CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047049C51DBA9D3C004F41CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047049D01DBA9D3C004F41CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047049AC1DBA9D3C004F41CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047049EC1DBA9EAF004F41CA /* PopularViewController.swift in Sources */,
+				047049BC1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld in Sources */,
+				047049B61DBA9D3C004F41CA /* ViewController.swift in Sources */,
+				047049F01DBA9F5F004F41CA /* QuickCastViewController.swift in Sources */,
+				047049EE1DBA9ECA004F41CA /* LiveNowViewController.swift in Sources */,
+				047049F61DBAA844004F41CA /* Dota2ViewController.swift in Sources */,
+				047049B41DBA9D3C004F41CA /* AppDelegate.swift in Sources */,
+				047049E81DBA9DA8004F41CA /* SWRevealViewController.m in Sources */,
+				047049F41DBAA79F004F41CA /* FollowingViewController.swift in Sources */,
+				047049F21DBAA069004F41CA /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047049C31DBA9D3C004F41CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047049CC1DBA9D3C004F41CA /* new_QuickCastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047049CE1DBA9D3C004F41CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047049D71DBA9D3C004F41CA /* new_QuickCastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047049C91DBA9D3C004F41CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047049AF1DBA9D3C004F41CA /* new QuickCast */;
+			targetProxy = 047049C81DBA9D3C004F41CA /* PBXContainerItemProxy */;
+		};
+		047049D41DBA9D3C004F41CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047049AF1DBA9D3C004F41CA /* new QuickCast */;
+			targetProxy = 047049D31DBA9D3C004F41CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047049B71DBA9D3C004F41CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047049B81DBA9D3C004F41CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047049BF1DBA9D3C004F41CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047049C01DBA9D3C004F41CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047049D91DBA9D3C004F41CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047049DA1DBA9D3C004F41CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047049DC1DBA9D3C004F41CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JT92HWUAAM;
+				INFOPLIST_FILE = "new QuickCast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JiaqiGeng.new-QuickCast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "new QuickCast/new QuickCast-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		047049DD1DBA9D3C004F41CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JT92HWUAAM;
+				INFOPLIST_FILE = "new QuickCast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JiaqiGeng.new-QuickCast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "new QuickCast/new QuickCast-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		047049DF1DBA9D3C004F41CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JT92HWUAAM;
+				INFOPLIST_FILE = "new QuickCastTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JiaqiGeng.new-QuickCastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/new QuickCast.app/new QuickCast";
+			};
+			name = Debug;
+		};
+		047049E01DBA9D3C004F41CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JT92HWUAAM;
+				INFOPLIST_FILE = "new QuickCastTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JiaqiGeng.new-QuickCastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/new QuickCast.app/new QuickCast";
+			};
+			name = Release;
+		};
+		047049E21DBA9D3C004F41CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JT92HWUAAM;
+				INFOPLIST_FILE = "new QuickCastUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JiaqiGeng.new-QuickCastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "new QuickCast";
+			};
+			name = Debug;
+		};
+		047049E31DBA9D3C004F41CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JT92HWUAAM;
+				INFOPLIST_FILE = "new QuickCastUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JiaqiGeng.new-QuickCastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "new QuickCast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047049AB1DBA9D3C004F41CA /* Build configuration list for PBXProject "new QuickCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047049D91DBA9D3C004F41CA /* Debug */,
+				047049DA1DBA9D3C004F41CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047049DB1DBA9D3C004F41CA /* Build configuration list for PBXNativeTarget "new QuickCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047049DC1DBA9D3C004F41CA /* Debug */,
+				047049DD1DBA9D3C004F41CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047049DE1DBA9D3C004F41CA /* Build configuration list for PBXNativeTarget "new QuickCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047049DF1DBA9D3C004F41CA /* Debug */,
+				047049E01DBA9D3C004F41CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047049E11DBA9D3C004F41CA /* Build configuration list for PBXNativeTarget "new QuickCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047049E21DBA9D3C004F41CA /* Debug */,
+				047049E31DBA9D3C004F41CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		047049BA1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				047049BB1DBA9D3C004F41CA /* new_QuickCast.xcdatamodel */,
+			);
+			currentVersion = 047049BB1DBA9D3C004F41CA /* new_QuickCast.xcdatamodel */;
+			path = new_QuickCast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 047049A81DBA9D3C004F41CA /* Project object */;
+}
