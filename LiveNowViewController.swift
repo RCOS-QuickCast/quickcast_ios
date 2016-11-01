@@ -10,7 +10,11 @@ import UIKit
 
 class LiveNowViewController: UIViewController {
 
+
+
     @IBOutlet weak var menuButton: UIBarButtonItem!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if self.revealViewController() != nil {
