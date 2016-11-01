@@ -9,7 +9,7 @@
 import UIKit
 
 class MenuViewController: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
@@ -21,7 +21,6 @@ class MenuViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 
