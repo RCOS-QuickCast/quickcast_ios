@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046B71D21DC95DDC00DC4910 /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B71D11DC95DDC00DC4910 /* MatchTableViewCell.swift */; };
 		047049B41DBA9D3C004F41CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049B31DBA9D3C004F41CA /* AppDelegate.swift */; };
 		047049B61DBA9D3C004F41CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049B51DBA9D3C004F41CA /* ViewController.swift */; };
 		047049B91DBA9D3C004F41CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047049B71DBA9D3C004F41CA /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046B71D11DC95DDC00DC4910 /* MatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
 		047049B01DBA9D3C004F41CA /* new QuickCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new QuickCast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047049B31DBA9D3C004F41CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047049B51DBA9D3C004F41CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				047049E41DBA9D91004F41CA /* SWRevealViewController */,
 				047049B31DBA9D3C004F41CA /* AppDelegate.swift */,
 				047049B71DBA9D3C004F41CA /* Main.storyboard */,
+				046B71D11DC95DDC00DC4910 /* MatchTableViewCell.swift */,
 				047049BD1DBA9D3C004F41CA /* Assets.xcassets */,
 				047049BF1DBA9D3C004F41CA /* LaunchScreen.storyboard */,
 				047049C21DBA9D3C004F41CA /* Info.plist */,
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046B71D21DC95DDC00DC4910 /* MatchTableViewCell.swift in Sources */,
 				047049EC1DBA9EAF004F41CA /* PopularViewController.swift in Sources */,
 				047049BC1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld in Sources */,
 				047049B61DBA9D3C004F41CA /* ViewController.swift in Sources */,

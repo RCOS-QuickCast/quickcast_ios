@@ -12,20 +12,22 @@ class TryViewController: UIViewController, UITableViewDataSource, UITableViewDel
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return tableItem.count
+        return Match.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchTableViewCell
         
         // Configure the cell...
-        cell.textLabel?.text = tableItem[indexPath.row]
+        cell.TeamName1.text = TeamNames[indexPath.row]
+        cell.TeamName2.text = TeamNames[indexPath.row]
         
         return cell
     }
     
-    var tableItem = ["Match 1", "Match 2", "Match 3", "Match 4", "Match 5"]
+    var Match = ["match 1", "match 2", "match 3"]
+    var TeamNames = ["Team 1", "Team 2", "Team 3", "Team 4"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
