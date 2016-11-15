@@ -19,6 +19,8 @@ class TryViewController: UIViewController, UITableViewDataSource, UITableViewDel
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchTableViewCell
         
+        cell.TeamImageView1.image = UIImage(named: "Dota2")
+        cell.TeamImageView2.image = UIImage(named: "Dota2")
         // Configure the cell...
         cell.TeamName1.text = TeamNames1[indexPath.row]
         cell.TeamName2.text = TeamNames2[indexPath.row]
@@ -26,9 +28,9 @@ class TryViewController: UIViewController, UITableViewDataSource, UITableViewDel
         return cell
     }
     
-    var Match = ["match 1", "match 2", "match 3", "match 4", "match 5"]
-    var TeamNames1 = ["Team 1", "Team 3", "Team 5", "Team 7", "Team 9"]
-    var TeamNames2 = ["Team 2", "Team 4", "Team 6", "Team 8", "Team 10"]
+    var Match = ["match 1", "match 2", "match 3", "match 4", "match 5", "match 6", "match 7", "match 8"]
+    var TeamNames1 = ["Team 1", "Team 3", "Team 5", "Team 7", "Team 9", "Team 11", "Team 13", "Team 15"]
+    var TeamNames2 = ["Team 2", "Team 4", "Team 6", "Team 8", "Team 10", "Team 12", "Team 14", "Team 16"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
