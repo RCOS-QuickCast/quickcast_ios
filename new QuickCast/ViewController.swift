@@ -20,14 +20,15 @@ class TryViewController: UIViewController, UITableViewDataSource, UITableViewDel
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchTableViewCell
         
         // Configure the cell...
-        cell.TeamName1.text = TeamNames[indexPath.row]
-        cell.TeamName2.text = TeamNames[indexPath.row]
+        cell.TeamName1.text = TeamNames1[indexPath.row]
+        cell.TeamName2.text = TeamNames2[indexPath.row]
         
         return cell
     }
     
-    var Match = ["match 1", "match 2", "match 3"]
-    var TeamNames = ["Team 1", "Team 2", "Team 3", "Team 4"]
+    var Match = ["match 1", "match 2", "match 3", "match 4", "match 5"]
+    var TeamNames1 = ["Team 1", "Team 3", "Team 5", "Team 7", "Team 9"]
+    var TeamNames2 = ["Team 2", "Team 4", "Team 6", "Team 8", "Team 10"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
