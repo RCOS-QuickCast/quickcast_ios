@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		046B71D21DC95DDC00DC4910 /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B71D11DC95DDC00DC4910 /* MatchTableViewCell.swift */; };
 		047049B41DBA9D3C004F41CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049B31DBA9D3C004F41CA /* AppDelegate.swift */; };
-		047049B61DBA9D3C004F41CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049B51DBA9D3C004F41CA /* ViewController.swift */; };
 		047049B91DBA9D3C004F41CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047049B71DBA9D3C004F41CA /* Main.storyboard */; };
 		047049BC1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 047049BA1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld */; };
 		047049BE1DBA9D3C004F41CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047049BD1DBA9D3C004F41CA /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 		047049E81DBA9DA8004F41CA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047049E71DBA9DA8004F41CA /* SWRevealViewController.m */; };
 		047049EC1DBA9EAF004F41CA /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049EB1DBA9EAF004F41CA /* PopularViewController.swift */; };
 		047049EE1DBA9ECA004F41CA /* LiveNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049ED1DBA9ECA004F41CA /* LiveNowViewController.swift */; };
-		047049F01DBA9F5F004F41CA /* QuickCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049EF1DBA9F5F004F41CA /* QuickCastViewController.swift */; };
 		047049F21DBAA069004F41CA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F11DBAA069004F41CA /* MenuViewController.swift */; };
 		047049F41DBAA79F004F41CA /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F31DBAA79F004F41CA /* FollowingViewController.swift */; };
 		047049F61DBAA844004F41CA /* Dota2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F51DBAA844004F41CA /* Dota2ViewController.swift */; };
@@ -46,7 +44,6 @@
 		046B71D11DC95DDC00DC4910 /* MatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
 		047049B01DBA9D3C004F41CA /* new QuickCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new QuickCast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047049B31DBA9D3C004F41CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		047049B51DBA9D3C004F41CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		047049B81DBA9D3C004F41CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047049BB1DBA9D3C004F41CA /* new_QuickCast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = new_QuickCast.xcdatamodel; sourceTree = "<group>"; };
 		047049BD1DBA9D3C004F41CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +60,6 @@
 		047049E71DBA9DA8004F41CA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		047049EB1DBA9EAF004F41CA /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
 		047049ED1DBA9ECA004F41CA /* LiveNowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveNowViewController.swift; path = ../LiveNowViewController.swift; sourceTree = "<group>"; };
-		047049EF1DBA9F5F004F41CA /* QuickCastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCastViewController.swift; sourceTree = "<group>"; };
 		047049F11DBAA069004F41CA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		047049F31DBAA79F004F41CA /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		047049F51DBAA844004F41CA /* Dota2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dota2ViewController.swift; sourceTree = "<group>"; };
@@ -161,9 +157,7 @@
 		047049F71DBAAEAA004F41CA /* ViewControllerClasses */ = {
 			isa = PBXGroup;
 			children = (
-				047049B51DBA9D3C004F41CA /* ViewController.swift */,
 				047049ED1DBA9ECA004F41CA /* LiveNowViewController.swift */,
-				047049EF1DBA9F5F004F41CA /* QuickCastViewController.swift */,
 				047049EB1DBA9EAF004F41CA /* PopularViewController.swift */,
 				047049F11DBAA069004F41CA /* MenuViewController.swift */,
 				047049F31DBAA79F004F41CA /* FollowingViewController.swift */,
@@ -313,8 +307,6 @@
 				046B71D21DC95DDC00DC4910 /* MatchTableViewCell.swift in Sources */,
 				047049EC1DBA9EAF004F41CA /* PopularViewController.swift in Sources */,
 				047049BC1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld in Sources */,
-				047049B61DBA9D3C004F41CA /* ViewController.swift in Sources */,
-				047049F01DBA9F5F004F41CA /* QuickCastViewController.swift in Sources */,
 				047049EE1DBA9ECA004F41CA /* LiveNowViewController.swift in Sources */,
 				047049F61DBAA844004F41CA /* Dota2ViewController.swift in Sources */,
 				047049B41DBA9D3C004F41CA /* AppDelegate.swift in Sources */,
