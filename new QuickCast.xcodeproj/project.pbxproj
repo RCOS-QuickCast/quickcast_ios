@@ -22,6 +22,7 @@
 		047049F41DBAA79F004F41CA /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F31DBAA79F004F41CA /* FollowingViewController.swift */; };
 		047049F61DBAA844004F41CA /* Dota2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047049F51DBAA844004F41CA /* Dota2ViewController.swift */; };
 		04C6B6051DF3237A009ED721 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B6041DF3237A009ED721 /* SettingsViewController.swift */; };
+		04C6B6071DF325AE009ED721 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B6061DF325AE009ED721 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		047049F31DBAA79F004F41CA /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		047049F51DBAA844004F41CA /* Dota2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dota2ViewController.swift; sourceTree = "<group>"; };
 		04C6B6041DF3237A009ED721 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		04C6B6061DF325AE009ED721 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		047049F71DBAAEAA004F41CA /* ViewControllerClasses */ = {
 			isa = PBXGroup;
 			children = (
+				04C6B6061DF325AE009ED721 /* AboutViewController.swift */,
 				04C6B6041DF3237A009ED721 /* SettingsViewController.swift */,
 				047049ED1DBA9ECA004F41CA /* LiveNowViewController.swift */,
 				047049EB1DBA9EAF004F41CA /* PopularViewController.swift */,
@@ -309,6 +312,7 @@
 			files = (
 				046B71D21DC95DDC00DC4910 /* MatchTableViewCell.swift in Sources */,
 				047049EC1DBA9EAF004F41CA /* PopularViewController.swift in Sources */,
+				04C6B6071DF325AE009ED721 /* AboutViewController.swift in Sources */,
 				047049BC1DBA9D3C004F41CA /* new_QuickCast.xcdatamodeld in Sources */,
 				04C6B6051DF3237A009ED721 /* SettingsViewController.swift in Sources */,
 				047049EE1DBA9ECA004F41CA /* LiveNowViewController.swift in Sources */,
