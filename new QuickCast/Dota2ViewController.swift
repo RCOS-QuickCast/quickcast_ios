@@ -19,7 +19,7 @@ class Dota2ViewController: UIViewController {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchTableViewCell
-        
+         
         cell.TeamImageView1.image = UIImage(named: "Dota2")
         cell.TeamImageView2.image = UIImage(named: "Dota2")
         // Configure the cell...
