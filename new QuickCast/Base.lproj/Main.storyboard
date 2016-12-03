@@ -629,7 +629,54 @@
                     <view key="view" contentMode="scaleToFill" id="lKv-3p-C2h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X67-CB-dVE">
+                                <rect key="frame" x="37" y="72" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="bui-TG-Mw1"/>
+                                    <constraint firstAttribute="width" constant="300" id="yuy-lS-qet"/>
+                                </constraints>
+                                <string key="text">Quickcast is an open source Android application, for viewing e-sports scores, being developed by a team of Rensselaer Center, for Open Source (RCOS) students.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paul Steiner Andrew Cage Jiaqi Geng Dan Rowland" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnw-sc-wgx">
+                                <rect key="frame" x="130" y="352" width="115" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="9LQ-hK-rB5"/>
+                                    <constraint firstAttribute="width" constant="115" id="AG1-NH-iEd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team Members" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="238-PI-qXd">
+                                <rect key="frame" x="119" y="317" width="136" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="KG8-5J-3C0"/>
+                                    <constraint firstAttribute="height" constant="33" id="qUB-FZ-NcZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="238-PI-qXd" firstAttribute="top" secondItem="nK9-Od-9Bx" secondAttribute="bottom" constant="253" id="2Az-6s-Y3u"/>
+                            <constraint firstItem="fvb-xg-mJM" firstAttribute="top" secondItem="X67-CB-dVE" secondAttribute="bottom" constant="295" id="2Un-YZ-saY"/>
+                            <constraint firstItem="238-PI-qXd" firstAttribute="leading" secondItem="lKv-3p-C2h" secondAttribute="leadingMargin" constant="103" id="3wv-qi-u1A"/>
+                            <constraint firstItem="X67-CB-dVE" firstAttribute="leading" secondItem="lKv-3p-C2h" secondAttribute="leadingMargin" constant="21" id="9Rs-gw-Doy"/>
+                            <constraint firstItem="X67-CB-dVE" firstAttribute="top" secondItem="nK9-Od-9Bx" secondAttribute="bottom" constant="8" id="Hgl-cU-bxN"/>
+                            <constraint firstItem="pnw-sc-wgx" firstAttribute="top" secondItem="238-PI-qXd" secondAttribute="bottom" constant="2" id="LWY-Xg-NFv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="238-PI-qXd" secondAttribute="trailing" constant="104" id="Qct-AN-Yl7"/>
+                            <constraint firstItem="pnw-sc-wgx" firstAttribute="leading" secondItem="lKv-3p-C2h" secondAttribute="leadingMargin" constant="114" id="VKJ-EU-T1K"/>
+                            <constraint firstItem="fvb-xg-mJM" firstAttribute="top" secondItem="pnw-sc-wgx" secondAttribute="bottom" constant="165" id="YvM-D4-nY3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pnw-sc-wgx" secondAttribute="trailing" constant="114" id="hqb-ga-WvP"/>
+                            <constraint firstItem="pnw-sc-wgx" firstAttribute="top" secondItem="238-PI-qXd" secondAttribute="bottom" constant="2" id="spA-0U-SHT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="X67-CB-dVE" secondAttribute="trailing" constant="22" id="zsH-3w-dW2"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="gPM-hn-Eax">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="h1a-zY-mTO"/>
