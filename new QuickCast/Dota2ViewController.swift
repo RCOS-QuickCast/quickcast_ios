@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Dota2ViewController: UIViewController {
+class Dota2ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
